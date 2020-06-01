@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [SYN 201-107] Renaming port name 'integrateKernel/end' to 'integrateKernel/end_r' to avoid the conflict with HDL keywords or other object names." projectName="Ultrascale_integrate_HLS" solutionName="solution1" date="2020-01-17T13:00:41.376+0200" type="Warning"/>
+        <logs message="WARNING: [SYN 201-103] Legalizing function name 'operator*' to 'operator_mul'." projectName="Ultrascale_integrate_HLS" solutionName="solution1" date="2020-01-17T13:00:41.349+0200" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-542] Cannot flatten a loop nest 'Loop-2.1' (Ultrascale_integrate_HLS/integrateKernel.cpp:56:8) in function 'integrateKernel' : &#xA;&#xA;&#xA;more than one sub loop." projectName="Ultrascale_integrate_HLS" solutionName="solution1" date="2020-01-17T13:00:40.770+0200" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog>
+        <logs message="WARNING: [IP_Flow 19-4832] The IP name 'integrateKernel_ap_uitofp_1_no_dsp_32' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues." projectName="Ultrascale_integrate_HLS" solutionName="solution1" date="2020-01-17T13:26:02.446+0200" type="Warning"/>
+        <logs message="WARNING: [IP_Flow 19-4832] The IP name 'integrateKernel_ap_sitofp_1_no_dsp_32' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues." projectName="Ultrascale_integrate_HLS" solutionName="solution1" date="2020-01-17T13:26:01.404+0200" type="Warning"/>
+        <logs message="WARNING: [IP_Flow 19-4832] The IP name 'integrateKernel_ap_fsub_2_full_dsp_32' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues." projectName="Ultrascale_integrate_HLS" solutionName="solution1" date="2020-01-17T13:26:00.305+0200" type="Warning"/>
+        <logs message="WARNING: [IP_Flow 19-4832] The IP name 'integrateKernel_ap_fsqrt_5_no_dsp_32' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues." projectName="Ultrascale_integrate_HLS" solutionName="solution1" date="2020-01-17T13:25:59.333+0200" type="Warning"/>
+        <logs message="WARNING: [IP_Flow 19-4832] The IP name 'integrateKernel_ap_fmul_0_max_dsp_32' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues." projectName="Ultrascale_integrate_HLS" solutionName="solution1" date="2020-01-17T13:25:58.441+0200" type="Warning"/>
+        <logs message="WARNING: [IP_Flow 19-4832] The IP name 'integrateKernel_ap_fdiv_6_no_dsp_32' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues." projectName="Ultrascale_integrate_HLS" solutionName="solution1" date="2020-01-17T13:25:57.375+0200" type="Warning"/>
+        <logs message="WARNING: [IP_Flow 19-4832] The IP name 'integrateKernel_ap_fcmp_0_no_dsp_32' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues." projectName="Ultrascale_integrate_HLS" solutionName="solution1" date="2020-01-17T13:25:56.471+0200" type="Warning"/>
+        <logs message="WARNING: [IP_Flow 19-4832] The IP name 'integrateKernel_ap_fadd_2_full_dsp_32' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues." projectName="Ultrascale_integrate_HLS" solutionName="solution1" date="2020-01-17T13:25:55.456+0200" type="Warning"/>
+      </packageLog>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

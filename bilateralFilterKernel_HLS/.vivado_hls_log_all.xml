@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [SCHED 204-69] Unable to schedule 'load' operation ('pad_depth_array_1_lo_4', bilateralFilterKernel_HLS/bilateralFilterKernel.cpp:79) on array 'pad_depth_array_1', bilateralFilterKernel_HLS/bilateralFilterKernel.cpp:33 due to limited memory ports. Please consider using a memory core with more ports or partitioning the array 'pad_depth_array_1'." projectName="bilateralFilterKernel_HLS" solutionName="solution1" date="2020-01-17T12:44:12.984+0200" type="Warning"/>
+        <logs message="WARNING: [SCHED 204-69] Unable to schedule 'load' operation ('pad_depth_array_3_lo_1', bilateralFilterKernel_HLS/bilateralFilterKernel.cpp:103) on array 'pad_depth_array_3', bilateralFilterKernel_HLS/bilateralFilterKernel.cpp:37 due to limited memory ports. Please consider using a memory core with more ports or partitioning the array 'pad_depth_array_3'." projectName="bilateralFilterKernel_HLS" solutionName="solution1" date="2020-01-17T12:44:12.887+0200" type="Warning"/>
+        <logs message="WARNING: [SYN 201-107] Renaming port name 'bilateralFilterKernel/end' to 'bilateralFilterKernel/end_r' to avoid the conflict with HDL keywords or other object names." projectName="bilateralFilterKernel_HLS" solutionName="solution1" date="2020-01-17T12:44:11.639+0200" type="Warning"/>
+        <logs message="WARNING: [SYN 201-107] Renaming port name 'bilateralFilterKernel/out' to 'bilateralFilterKernel/out_r' to avoid the conflict with HDL keywords or other object names." projectName="bilateralFilterKernel_HLS" solutionName="solution1" date="2020-01-17T12:44:11.636+0200" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-542] Cannot flatten a loop nest 'Loop-2' (bilateralFilterKernel_HLS/bilateralFilterKernel.cpp:49:7) in function 'bilateralFilterKernel' : &#xA;&#xA;&#xA;more than one sub loop." projectName="bilateralFilterKernel_HLS" solutionName="solution1" date="2020-01-17T12:44:11.471+0200" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog>
+        <logs message="WARNING: [IP_Flow 19-4832] The IP name 'bilateralFilterKernel_ap_fsub_8_full_dsp_32' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues." projectName="bilateralFilterKernel_HLS" solutionName="solution1" date="2020-01-17T13:27:37.924+0200" type="Warning"/>
+        <logs message="WARNING: [IP_Flow 19-4832] The IP name 'bilateralFilterKernel_ap_fmul_4_max_dsp_32' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues." projectName="bilateralFilterKernel_HLS" solutionName="solution1" date="2020-01-17T13:27:36.816+0200" type="Warning"/>
+        <logs message="WARNING: [IP_Flow 19-4832] The IP name 'bilateralFilterKernel_ap_fexp_16_full_dsp_32' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues." projectName="bilateralFilterKernel_HLS" solutionName="solution1" date="2020-01-17T13:27:35.758+0200" type="Warning"/>
+        <logs message="WARNING: [IP_Flow 19-4832] The IP name 'bilateralFilterKernel_ap_fdiv_28_no_dsp_32' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues." projectName="bilateralFilterKernel_HLS" solutionName="solution1" date="2020-01-17T13:27:34.592+0200" type="Warning"/>
+        <logs message="WARNING: [IP_Flow 19-4832] The IP name 'bilateralFilterKernel_ap_fcmp_1_no_dsp_32' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues." projectName="bilateralFilterKernel_HLS" solutionName="solution1" date="2020-01-17T13:27:33.671+0200" type="Warning"/>
+        <logs message="WARNING: [IP_Flow 19-4832] The IP name 'bilateralFilterKernel_ap_faddfsub_8_full_dsp_32' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues." projectName="bilateralFilterKernel_HLS" solutionName="solution1" date="2020-01-17T13:27:32.754+0200" type="Warning"/>
+        <logs message="WARNING: [IP_Flow 19-4832] The IP name 'bilateralFilterKernel_ap_fadd_8_full_dsp_32' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues." projectName="bilateralFilterKernel_HLS" solutionName="solution1" date="2020-01-17T13:27:31.911+0200" type="Warning"/>
+      </packageLog>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>
