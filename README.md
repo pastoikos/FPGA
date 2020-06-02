@@ -20,7 +20,7 @@ Vivado: Vivado design project
 
 Petalinux: It contains the device tree, the drivers from the Vivado Design and the code for running the project on the FPGA.
 
-Note: As regards the petalinux build , it is necessary to add Toon libray on  directory  where is located the SLAM application.
+Note: As regards the petalinux build, it is necessary to add TooN libray on directory where is located the SLAM application.
 
 Export files:Image and Boot.bin 
 
@@ -36,7 +36,7 @@ Boot the FPGA
 
 Run the executable with parameters -i living_room_traj2_loop.raw  -s 4.8 -p 0.34,0.5,0.24 -z 4 -c 2 -r 1 -k 481.2,480,320,240 > benchmark.log
 
-Once finished get the log and check the trajectory error if is acceptable and the average times per frame(see https://github.com/pamela-project/slambench).
+Once finished get the log and check the trajectory error if it is acceptable and the average time per frame(see https://github.com/pamela-project/slambench).
 
 
  
