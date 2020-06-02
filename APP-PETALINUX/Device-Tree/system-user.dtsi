@@ -1,0 +1,66 @@
+/include/ "system-conf.dtsi"
+/ { chosen {
+        bootargs = "console=ttyPS0,115200 earlyprintk uio_pdrv_genirq.of_id=generic-uio";
+    };
+    amba_pl: amba_pl@0 {
+		#address-cells = <2>;
+		#size-cells = <2>;
+		compatible = "simple-bus";
+		ranges ;
+		bilateralFilterKernel_0: bilateralFilterKernel@a0000000 {
+			/* This is a place holder node for a custom IP, user may need to update the entries */
+			clock-names = "ap_clk";
+			clocks = <&clk 71>;
+			compatible = "generic-uio";
+			reg = <0x0 0xa0000000 0x0 0x10000>;
+			xlnx,s-axi-control-addr-width = <0x7>;
+			xlnx,s-axi-control-data-width = <0x20>;
+		};
+		integrateKernel_0@a0010000 {
+			/* This is a place holder node for a custom IP, user may need to update the entries */
+			clock-names = "ap_clk";
+			clocks = <&clk 71>;
+			compatible = "generic-uio";
+			reg = <0x0 0xa0010000 0x0 0x10000>;
+			xlnx,s-axi-control-addr-width = <0x8>;
+			xlnx,s-axi-control-data-width = <0x20>;
+		};
+		integrateKernel_1@a0020000 {
+			/* This is a place holder node for a custom IP, user may need to update the entries */
+			clock-names = "ap_clk";
+			clocks = <&clk 71>;
+			compatible = "generic-uio";
+			reg = <0x0 0xa0020000 0x0 0x10000>;
+			xlnx,s-axi-control-addr-width = <0x8>;
+			xlnx,s-axi-control-data-width = <0x20>;
+		};
+		integrateKernel_2@a0030000 {
+			/* This is a place holder node for a custom IP, user may need to update the entries */
+			clock-names = "ap_clk";
+			clocks = <&clk 71>;
+			compatible = "generic-uio";
+			reg = <0x0 0xa0030000 0x0 0x10000>;
+			xlnx,s-axi-control-addr-width = <0x8>;
+			xlnx,s-axi-control-data-width = <0x20>;
+		};
+		integrateKernel_3@a0040000 {
+			/* This is a place holder node for a custom IP, user may need to update the entries */
+			clock-names = "ap_clk";
+			clocks = <&clk 71>;
+			compatible = "generic-uio";
+			reg = <0x0 0xa0040000 0x0 0x10000>;
+			xlnx,s-axi-control-addr-width = <0x8>;
+			xlnx,s-axi-control-data-width = <0x20>;
+		};
+		psu_ctrl_ipi: PERIPHERAL@ff380000 {
+			/* This is a place holder node for a custom IP, user may need to update the entries */
+			compatible = "xlnx,PERIPHERAL-1.0";
+			reg = <0x0 0xff380000 0x0 0x80000>;
+		};
+		psu_message_buffers: PERIPHERAL@ff990000 {
+			/* This is a place holder node for a custom IP, user may need to update the entries */
+			compatible = "xlnx,PERIPHERAL-1.0";
+			reg = <0x0 0xff990000 0x0 0x10000>;
+		};
+	};
+};
