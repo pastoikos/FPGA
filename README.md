@@ -20,6 +20,8 @@ Vivado: Vivado design project
 
 Petalinux: It contains the device tree, the drivers from the Vivado Design and the code for running the project on the FPGA.
 
+Note: As regards the petalinux build , it is necessary to add Toon libray on  directory  where is located the SLAM application.
+
 Export files:Image and Boot.bin 
 
 Doc:Extended paper overview
