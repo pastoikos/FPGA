@@ -14,13 +14,9 @@ The initial development was based from https://github.com/pamela-project/slamben
 
 Vivado_HLS: It contains both accelerators used in the designed
 
-Note: If you want to experiment with the accelerators on Vivado_HLS you need the TooN library to be included in each directory for compiling, synthesis etc. We download it by installing it from the https://github.com/pamela-project/slambench, check the instructions. 
-
 Vivado: Vivado design project
 
 Petalinux: It contains the device tree, the drivers from the Vivado Design and the code for running the project on the FPGA.
-
-Note: As regards the petalinux build, it is necessary to add TooN libray on directory where is located the SLAM application.
 
 Export files:Image and Boot.bin 
 
