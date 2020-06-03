@@ -16,6 +16,8 @@ Vivado: Vivado design project. https://drive.google.com/file/d/1rNwdHALI4e5boevu
 
 SLAM_APP_PETALINUX: It contains the device tree, the drivers from the Vivado Design and the code for running the project on the FPGA.
 
+Petalinux: The whole petalinux project. https://drive.google.com/file/d/1KuPEAjq1z4s_uMUmrES59Tdu4OsswNlz/view?usp=sharing
+
 SD: Image and Boot.bin 
 
 doc: Extended paper overview
