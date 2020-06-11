@@ -23,8 +23,8 @@ SD: Image and Boot.bin
 doc: Extended paper overview
 
 How to run it on the FPGA
-
-Download a trajectory living_room_traj2_loop (see https://github.com/pamela-project/slambench) 
+ 
+Download a trajectory living_room_traj2_loop (see https://github.com/pamela-project/slambench) or download trajectory from https://drive.google.com/file/d/1fBN02cAFGWD2hr26He5gfiR59Y6UMVZj/view?usp=sharing
 
 Get the img,the boot file and the trajectory in the SD
 
